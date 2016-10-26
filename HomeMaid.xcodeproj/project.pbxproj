@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		246491401DBCF0F600FE79A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464913F1DBCF0F600FE79A7 /* AppDelegate.swift */; };
+		246491421DBCF0F600FE79A7 /* TopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246491411DBCF0F600FE79A7 /* TopVC.swift */; };
+		246491451DBCF0F600FE79A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246491431DBCF0F600FE79A7 /* Main.storyboard */; };
+		246491471DBCF0F600FE79A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246491461DBCF0F600FE79A7 /* Assets.xcassets */; };
+		2464914A1DBCF0F600FE79A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246491481DBCF0F600FE79A7 /* LaunchScreen.storyboard */; };
+		246491551DBCF0F600FE79A7 /* HomeMaidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246491541DBCF0F600FE79A7 /* HomeMaidTests.swift */; };
+		246491621DBCF11400FE79A7 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246491611DBCF11400FE79A7 /* HomeKit.framework */; };
+		246491641DBCF8BF00FE79A7 /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246491631DBCF8BF00FE79A7 /* TV.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		246491511DBCF0F600FE79A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 246491341DBCF0F600FE79A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2464913B1DBCF0F600FE79A7;
+			remoteInfo = HomeMaid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2464913C1DBCF0F600FE79A7 /* HomeMaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeMaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2464913F1DBCF0F600FE79A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		246491411DBCF0F600FE79A7 /* TopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopVC.swift; sourceTree = "<group>"; };
+		246491441DBCF0F600FE79A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		246491461DBCF0F600FE79A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		246491491DBCF0F600FE79A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2464914B1DBCF0F600FE79A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246491501DBCF0F600FE79A7 /* HomeMaidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeMaidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		246491541DBCF0F600FE79A7 /* HomeMaidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMaidTests.swift; sourceTree = "<group>"; };
+		246491561DBCF0F600FE79A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2464915F1DBCF11400FE79A7 /* HomeMaid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeMaid.entitlements; sourceTree = "<group>"; };
+		246491611DBCF11400FE79A7 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		246491631DBCF8BF00FE79A7 /* TV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TV.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		246491391DBCF0F600FE79A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246491621DBCF11400FE79A7 /* HomeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2464914D1DBCF0F600FE79A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246491331DBCF0F600FE79A7 = {
+			isa = PBXGroup;
+			children = (
+				2464913E1DBCF0F600FE79A7 /* HomeMaid */,
+				246491531DBCF0F600FE79A7 /* HomeMaidTests */,
+				2464913D1DBCF0F600FE79A7 /* Products */,
+				246491601DBCF11400FE79A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2464913D1DBCF0F600FE79A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2464913C1DBCF0F600FE79A7 /* HomeMaid.app */,
+				246491501DBCF0F600FE79A7 /* HomeMaidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2464913E1DBCF0F600FE79A7 /* HomeMaid */ = {
+			isa = PBXGroup;
+			children = (
+				2464915F1DBCF11400FE79A7 /* HomeMaid.entitlements */,
+				2464913F1DBCF0F600FE79A7 /* AppDelegate.swift */,
+				246491411DBCF0F600FE79A7 /* TopVC.swift */,
+				246491631DBCF8BF00FE79A7 /* TV.swift */,
+				246491431DBCF0F600FE79A7 /* Main.storyboard */,
+				246491461DBCF0F600FE79A7 /* Assets.xcassets */,
+				246491481DBCF0F600FE79A7 /* LaunchScreen.storyboard */,
+				2464914B1DBCF0F600FE79A7 /* Info.plist */,
+			);
+			path = HomeMaid;
+			sourceTree = "<group>";
+		};
+		246491531DBCF0F600FE79A7 /* HomeMaidTests */ = {
+			isa = PBXGroup;
+			children = (
+				246491541DBCF0F600FE79A7 /* HomeMaidTests.swift */,
+				246491561DBCF0F600FE79A7 /* Info.plist */,
+			);
+			path = HomeMaidTests;
+			sourceTree = "<group>";
+		};
+		246491601DBCF11400FE79A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				246491611DBCF11400FE79A7 /* HomeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2464913B1DBCF0F600FE79A7 /* HomeMaid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246491591DBCF0F600FE79A7 /* Build configuration list for PBXNativeTarget "HomeMaid" */;
+			buildPhases = (
+				246491381DBCF0F600FE79A7 /* Sources */,
+				246491391DBCF0F600FE79A7 /* Frameworks */,
+				2464913A1DBCF0F600FE79A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeMaid;
+			productName = HomeMaid;
+			productReference = 2464913C1DBCF0F600FE79A7 /* HomeMaid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2464914F1DBCF0F600FE79A7 /* HomeMaidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2464915C1DBCF0F600FE79A7 /* Build configuration list for PBXNativeTarget "HomeMaidTests" */;
+			buildPhases = (
+				2464914C1DBCF0F600FE79A7 /* Sources */,
+				2464914D1DBCF0F600FE79A7 /* Frameworks */,
+				2464914E1DBCF0F600FE79A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				246491521DBCF0F600FE79A7 /* PBXTargetDependency */,
+			);
+			name = HomeMaidTests;
+			productName = HomeMaidTests;
+			productReference = 246491501DBCF0F600FE79A7 /* HomeMaidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		246491341DBCF0F600FE79A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Tatsuya Tanaka (tattn)";
+				TargetAttributes = {
+					2464913B1DBCF0F600FE79A7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MS8D8N57LJ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+					2464914F1DBCF0F600FE79A7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2464913B1DBCF0F600FE79A7;
+					};
+				};
+			};
+			buildConfigurationList = 246491371DBCF0F600FE79A7 /* Build configuration list for PBXProject "HomeMaid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 246491331DBCF0F600FE79A7;
+			productRefGroup = 2464913D1DBCF0F600FE79A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2464913B1DBCF0F600FE79A7 /* HomeMaid */,
+				2464914F1DBCF0F600FE79A7 /* HomeMaidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2464913A1DBCF0F600FE79A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2464914A1DBCF0F600FE79A7 /* LaunchScreen.storyboard in Resources */,
+				246491471DBCF0F600FE79A7 /* Assets.xcassets in Resources */,
+				246491451DBCF0F600FE79A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2464914E1DBCF0F600FE79A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		246491381DBCF0F600FE79A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246491421DBCF0F600FE79A7 /* TopVC.swift in Sources */,
+				246491401DBCF0F600FE79A7 /* AppDelegate.swift in Sources */,
+				246491641DBCF8BF00FE79A7 /* TV.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2464914C1DBCF0F600FE79A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246491551DBCF0F600FE79A7 /* HomeMaidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		246491521DBCF0F600FE79A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2464913B1DBCF0F600FE79A7 /* HomeMaid */;
+			targetProxy = 246491511DBCF0F600FE79A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		246491431DBCF0F600FE79A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246491441DBCF0F600FE79A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		246491481DBCF0F600FE79A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246491491DBCF0F600FE79A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		246491571DBCF0F600FE79A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		246491581DBCF0F600FE79A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2464915A1DBCF0F600FE79A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HomeMaid/HomeMaid.entitlements;
+				DEVELOPMENT_TEAM = MS8D8N57LJ;
+				INFOPLIST_FILE = HomeMaid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.tattn.HomeMaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2464915B1DBCF0F600FE79A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HomeMaid/HomeMaid.entitlements;
+				DEVELOPMENT_TEAM = MS8D8N57LJ;
+				INFOPLIST_FILE = HomeMaid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.tattn.HomeMaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2464915D1DBCF0F600FE79A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HomeMaidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.tattn.HomeMaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeMaid.app/HomeMaid";
+			};
+			name = Debug;
+		};
+		2464915E1DBCF0F600FE79A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HomeMaidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.tattn.HomeMaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeMaid.app/HomeMaid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246491371DBCF0F600FE79A7 /* Build configuration list for PBXProject "HomeMaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246491571DBCF0F600FE79A7 /* Debug */,
+				246491581DBCF0F600FE79A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246491591DBCF0F600FE79A7 /* Build configuration list for PBXNativeTarget "HomeMaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2464915A1DBCF0F600FE79A7 /* Debug */,
+				2464915B1DBCF0F600FE79A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2464915C1DBCF0F600FE79A7 /* Build configuration list for PBXNativeTarget "HomeMaidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2464915D1DBCF0F600FE79A7 /* Debug */,
+				2464915E1DBCF0F600FE79A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 246491341DBCF0F600FE79A7 /* Project object */;
+}
